@@ -1,0 +1,34 @@
+package dt05082021.datatypes;
+
+public class Operators {
+	/*
+	 *  Arithmetic
+	 *  +,-, * ,/, %, ++, -- /// binary
+	 *  +=,-=,*=,/=(short hand)
+	 *  
+	 *  
+	 *  
+	 *  relational
+	 *  > < <= , >= , == !=
+	 *  
+	 *  logical
+	 *  
+	 */
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		 
+		
+	int b = 20;
+	int c = (a+10) + (b+20);
+	b = -b; // unary
+	
+	//ternary 3 operands  ?:
+	
+	int x = (a>b)?70:90;
+		
+		
+	}
+}
+// 10 11

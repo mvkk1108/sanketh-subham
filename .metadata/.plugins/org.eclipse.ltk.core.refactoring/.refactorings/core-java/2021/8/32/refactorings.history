@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;dt05082021&apos; to &apos;dt05082021.datatypes&apos;&#x0D;&#x0A;- Original project: &apos;core-java&apos;&#x0D;&#x0A;- Original element: &apos;core-java/src/dt05082021&apos;&#x0D;&#x0A;- Renamed element: &apos;core-java/src/dt05082021.datatypes&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;dt05082021&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;dt05082021" name="dt05082021.datatypes" qualified="false" references="true" stamp="1628172242448" textual="false" version="1.0"/>
+</session>

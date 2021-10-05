@@ -1,0 +1,19 @@
+package fileio;
+
+import java.io.FileWriter;
+import java.io.Writer;
+
+public class FileWritingExample {
+
+	public static void main(String[] args) {
+	
+		
+		
+		
+		Writer w = new FileWriter("abc.txt");
+		
+		
+
+	}
+
+}

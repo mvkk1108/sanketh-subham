@@ -1,0 +1,16 @@
+package fileio;
+
+import java.io.FileWriter;
+import java.io.Writer;
+
+public class FileWritingExample1 {
+
+	public static void main(String[] args) {
+
+          Employee emp = new Employee(101, "krishna", "krishna", "1234567", 200000.00, 29);
+
+          
+         Writer w  = new FileWriter("emp1.txt");
+	}
+
+}

@@ -1,0 +1,11 @@
+package fileio;
+
+public class FileWritingExample1 {
+
+	public static void main(String[] args) {
+
+          Employee emp = new Employee(101, "krishna", "krishna", "1234567", 200000.00, 29);
+
+	}
+
+}

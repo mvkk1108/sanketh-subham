@@ -1,0 +1,24 @@
+package fileio;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+public class FileWritingExample {
+
+	public static void main(String[] args) throws IOException {
+	
+		
+		
+		
+		Writer w = new FileWriter("emp.txt",true);
+		char[] data= {'v','e','n','k','a','t','a'};
+		//w.write(data, 3, 3);
+		//w.write(120);
+		w.close();
+		
+		
+
+	}
+
+}

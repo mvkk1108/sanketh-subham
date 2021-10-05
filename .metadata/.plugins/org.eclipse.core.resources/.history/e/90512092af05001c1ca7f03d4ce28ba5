@@ -1,0 +1,15 @@
+package inheritance;
+
+public class Student extends Person {
+	
+	
+	private int marks;
+	
+	
+	// constructor
+
+	
+	//getter and setters
+	
+	
+}

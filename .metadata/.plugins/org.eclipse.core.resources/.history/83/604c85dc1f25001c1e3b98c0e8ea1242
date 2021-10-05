@@ -1,0 +1,35 @@
+package fileio;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.Writer;
+
+public class FileWritingExample {
+
+	public static void main(String[] args) throws IOException {
+	
+		
+		
+		
+		Writer w = new FileWriter("emp.txt",true);
+		char[] data= {'v','e','n','k','a','t','a'};
+		//w.write(data, 3, 3);
+		//w.write(120);
+		
+		//w.write(" Java Trainer");
+		//w.write("Sanketh");
+		//w.append('t');
+		//w.flush();
+		
+		PrintWriter pw = new PrintWriter(w);
+	//	w.close();
+		
+		pw.println("Java Is object oriened");
+		pw.close();
+		
+		
+
+	}
+
+}

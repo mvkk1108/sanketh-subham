@@ -1,0 +1,42 @@
+package dt05082021.datatypes;
+
+import java.util.Scanner;
+
+public class Operators {
+	/*
+	 *  Arithmetic
+	 *  +,-, * ,/, %, ++, -- /// binary
+	 *  +=,-=,*=,/=(short hand)
+	 *  a - 3
+	 *  b =4
+	 *   a + b = 7
+	 *  
+	 *  
+	 *  relational
+	 *  > < <= , >= , == !=
+	 *   a > b boolean 
+	 *   true / false
+	 *  logical
+	 *  
+	 *  
+	 *  number = -5
+	 *  -(number) = 5
+	 *  
+	 */
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any number");
+		int number = sc.nextInt();  // 5 5, -5 5
+		if(number < 0)
+		{
+		number = -number;
+		}
+		System.out.println(number);
+		
+		
+	}
+}
+// 10 11

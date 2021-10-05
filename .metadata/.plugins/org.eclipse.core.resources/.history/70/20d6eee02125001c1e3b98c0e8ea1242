@@ -1,0 +1,27 @@
+package fileio;
+
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.Writer;
+
+public class FileWritingExample1 {
+
+	public static void main(String[] args) throws IOException {
+
+          Employee emp = new Employee(101, "krishna", "krishna", "1234567", 200000.00, 29);
+
+          
+         Writer w  = new FileWriter("emp1.txt");
+         
+         String empString = emp.getId()+","+emp.getName()+","+emp.getEmail()+","+emp.getMobile()+","+emp.getSalary()+","+emp.getAge();
+         
+         w.write(empString);
+         
+        OutputStream os  = new FileOutputStream("emp2.txt");
+         
+      
+	}
+
+}

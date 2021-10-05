@@ -1,0 +1,19 @@
+Array - group of similar data elements
+
+int num1 = 30
+int num2 = 40 
+int num3 = 50
+
+  100 
+
+int sum = num1 + num2 + num3;
+
+int nums[] ={1,2,3,4,5,6};
+
+System.out.println(nums[4]);
+System.out.println(nums[5]);
+System.out.println(nums[6]); // ArrayIndexOutOfBoundsException
+
+int arr[] = {1,2,3,4,5};
+
+type arrayName[] = new type[size];
